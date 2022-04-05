@@ -1,0 +1,13 @@
+ ( function($) {
+( jQuery) 
+
+$(document).ready(function(){
+	$('#header-btn-user').button();
+	$('#header-btn-mail').button();
+	
+	/*$('#LeftSideNavigation h5').wrapInner('<a/>');
+	$('#LeftSideNavigation ul').css({'list-style':'none'}); 
+	$('.Accordion').accordion({autoHeight:false, icons:{header: "ui-icon-plusthick", headerSelected: "ui-icon-minusthick"}});
+	$('#LeftSideNavigation li a').button({icons: {secondary: "si-icon-circle-arrow-e"}});*/
+});
+} ) ( jQuery );
