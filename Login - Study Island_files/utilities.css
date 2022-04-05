@@ -1,0 +1,26 @@
+/* CSS Document */
+
+/**** text styles (move to typogrpahy helper) ******/
+.text-left, .text-l {text-align:left !important;} /* use text-l instead of text-left. to remove */
+.text-right, .text-r {text-align:right !important;}
+.text-center, .text-c {text-align:center !important;}
+
+/**** layout styles (move to layout helper) ****/
+.float-l {float:left;}
+.float-r {float:right;}
+.margin {margin:10px;}
+.margin-l {margin-left:10px;}
+.margin-r {margin-right:10px;}
+.margin-t {margin-top:10px;}
+.margin-b {margin-bottom:10px;}
+.padding {padding:10px;}
+
+/**** float widths *****/
+.one-half {width:50%;}
+.one-third {width:33%;}
+.two-thirds {width:66%;}
+.one-quarter {width:25%}
+.three-quarter {width:75%}
+
+.pos-rel {position:relative;}
+.pos-abs {position:absolute;}

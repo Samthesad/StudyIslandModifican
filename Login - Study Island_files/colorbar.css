@@ -1,0 +1,78 @@
+/* color bar & stripes */
+.color-bar {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 12px;
+  overflow: hidden;
+}
+.color-bar:before,
+.color-bar:after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  width: 50%;
+  height: 12px;
+  content: " ";
+}
+.color-bar:before {
+  top: 0;
+  left: 0;
+  background-color: #b368a9;
+}
+.color-bar:after {
+  top: 0;
+  right: 0;
+  background-color: #009edb;
+}
+.color-bar .stripes {
+  margin: 0 auto;
+  width: 980px;
+  height: 12px;
+  background-color: #009edb;
+  overflow: hidden;
+}
+.color-bar .stripes div {
+  height: 12px;
+  float: left;
+}
+.color-bar .stripes .first-strip {
+  width: 126px;
+  background-color: #b368a9;
+}
+.color-bar .stripes .second-strip {
+  width: 113px;
+  background-color: #bed52f;
+}
+.color-bar .stripes .third-strip {
+  width: 128px;
+  background-color: #5dba61;
+}
+.color-bar .stripes .fourth-strip {
+  width: 113px;
+  background-color: #dddd5b;
+}
+.color-bar .stripes .fifth-strip {
+  width: 54px;
+  background-color: #ffdd00;
+}
+.color-bar .stripes .sixth-strip {
+  width: 73px;
+  background-color: #f0642f;
+}
+.color-bar .stripes .seventh-strip {
+  width: 68px;
+  background-color: #f7a41a;
+}
+.color-bar .stripes .eighth-strip {
+  width: 99px;
+  background-color: #eb0b6c;
+}
+.color-bar .stripes .ninth-strip {
+  width: 86px;
+  background-color: #b368a9;
+}
+.color-bar .stripes .tenth-strip {
+  width: 120px;
+  background-color: #009edb;
+}
