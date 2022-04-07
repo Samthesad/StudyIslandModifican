@@ -24,7 +24,7 @@
 #cssload-loader.cssload-center-image { 
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-image: url('https://stockhead.com.au/wp-content/uploads/2021/04/Screen-Shot-2021-04-20-at-12.48.56-PM-640x361.jpg');
+	background-image: url('/cfw/images/edmentum-logo-large.png');
 }
 
 #cssload-loader .cssload-dot {
